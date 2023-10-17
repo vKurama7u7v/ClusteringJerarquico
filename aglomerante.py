@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # Carga del conjunto de datos
-dataset = pd.read_csv('Clientes_Tienda.csv')
+dataset = pd.read_csv('Mall_Customers.csv')
 X = dataset.iloc[:, [3, 4]].values
 
 # Creamos el dendograma para encontrar el número óptimo de clusters
